@@ -42,10 +42,10 @@ public class employee {
         System.out.print("Enter number of employees: ");
         int n = sc.nextInt();
 
-        // Create array of EMPLOYEE objects
+        // Creating array of employee objects
         employee[] employees = new employee[n];
-
-        // Read details for each employee
+		
+		// Reading employee details
         for (int i = 0; i < n; i++) {
             employees[i] = new employee();
             System.out.println("\nEnter details for Employee " + (i + 1));
@@ -61,6 +61,7 @@ public class employee {
         sc.close();
     }
 }
+
 
 
 
