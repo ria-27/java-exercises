@@ -1,11 +1,9 @@
-//Define a class EMPLOYEE having following members: Ename, Eid, Basic, DA, 
-//Gross_Sal, Net_Sal and following methods: 
+//Define a class EMPLOYEE having following members: Ename, Eid, Basic, DA, Gross_Sal, Net_Sal and following methods: 
 //a. read(): to read N employee details 
 //b. display(): to display employee details 
 //c. compute_net_sal(): to compute net salary 
-//Write a Java program to read data of N employee and compute and display net salary 
-//of each employee Note: (DA = 52% of Basic, gross_Sal = Basic + DA; IT = 30% of 
-//the gross salary) 
+//Write a Java program to read data of N employees, compute and display net salary of each employee .
+//Note: (DA = 52% of Basic, gross_Sal = Basic + DA; IT = 30% of the gross salary) 
 package exercise;
 import java.util.Scanner;
 public class employee {
@@ -61,6 +59,7 @@ public class employee {
         sc.close();
     }
 }
+
 
 
 
